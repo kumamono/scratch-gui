@@ -46,6 +46,9 @@ import gdxforInsetIconURL from './gdxfor/gdxfor-small.svg';
 import gdxforConnectionIconURL from './gdxfor/gdxfor-illustration.svg';
 import gdxforConnectionSmallIconURL from './gdxfor/gdxfor-small.svg';
 
+import newblocksImage from './newblocks.png';
+import newblocksInsetImage from './newblocks-small.png';
+
 export default [
     {
         name: (
@@ -63,6 +66,26 @@ export default [
                 defaultMessage="Play instruments and drums."
                 description="Description for the 'Music' extension"
                 id="gui.extension.music.description"
+            />
+        ),
+        featured: true
+    },
+    {
+        name: (
+            <FormattedMessage
+                defaultMessage="New Blocks"
+                description="Name for the 'New Blocks' extension"
+                id="gui.extension.newblocks.name"
+            />
+        ),
+        extensionId: 'newblocks',
+        iconURL: newblocksImage,
+        insetIconURL: newblocksInsetImage,
+        description: (
+            <FormattedMessage
+                defaultMessage="New extension"
+                description="Description for the 'New Blocks' extension"
+                id="gui.extension.newblocks.description"
             />
         ),
         featured: true

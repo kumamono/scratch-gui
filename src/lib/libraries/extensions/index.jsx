@@ -73,8 +73,8 @@ export default [
     {
         name: (
             <FormattedMessage
-                defaultMessage="New Blocks"
-                description="Name for the 'New Blocks' extension"
+                defaultMessage="文法A"
+                description="文法テンプレート"
                 id="gui.extension.newblocks.name"
             />
         ),
@@ -83,8 +83,8 @@ export default [
         insetIconURL: newblocksInsetImage,
         description: (
             <FormattedMessage
-                defaultMessage="New extension"
-                description="Description for the 'New Blocks' extension"
+                defaultMessage="文法テンプレート"
+                description="文法テンプレート"
                 id="gui.extension.newblocks.description"
             />
         ),

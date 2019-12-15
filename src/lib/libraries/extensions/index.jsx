@@ -71,6 +71,14 @@ export default [
         featured: true
     },
     {
+    name: "Scratch3ex_floot",
+    extensionId: 'ex_floot',
+    iconURL: newblocksImage,
+    insetIconURL: newblocksInsetImage,
+    description: "New Extension",
+    featured: true
+    },
+    {
         name: (
             <FormattedMessage
                 defaultMessage="文法A"

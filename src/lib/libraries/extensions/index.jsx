@@ -71,18 +71,10 @@ export default [
         featured: true
     },
     {
-    name: "Scratch3ex_floot",
-    extensionId: 'ex_floot',
-    iconURL: newblocksImage,
-    insetIconURL: newblocksInsetImage,
-    description: "New Extension",
-    featured: true
-    },
-    {
         name: (
             <FormattedMessage
-                defaultMessage="文法A"
-                description="文法テンプレート"
+                defaultMessage="プログラミング教育ブロック"
+                description="プログラミング教育ブロック"
                 id="gui.extension.newblocks.name"
             />
         ),
@@ -91,8 +83,8 @@ export default [
         insetIconURL: newblocksInsetImage,
         description: (
             <FormattedMessage
-                defaultMessage="文法テンプレート"
-                description="文法テンプレート"
+                defaultMessage="プログラミング教育ブロック"
+                description="プログラミング教育ブロック"
                 id="gui.extension.newblocks.description"
             />
         ),

@@ -46,10 +46,40 @@ import gdxforInsetIconURL from './gdxfor/gdxfor-small.svg';
 import gdxforConnectionIconURL from './gdxfor/gdxfor-illustration.svg';
 import gdxforConnectionSmallIconURL from './gdxfor/gdxfor-small.svg';
 
-import newblocksImage from './newblocks.png';
-import newblocksInsetImage from './newblocks-small.png';
+import tangoImage from './単語.png';
+import tangoInsetImage from './単語ミニ.png';
+
+import listImage from './リスト.png';
+import listInsetImage from './リストミニ.png';
+
+import hyoukaImage from './評価.png';
+import hyoukaInsetImage from './評価ミニ.png';
 
 export default [
+    {
+        name: "tango Blocks",
+        extensionId: 'tangoblocks',
+        iconURL: tangoImage,
+        insetIconURL: tangoInsetImage,
+        description: "単語リストを補助します",
+        featured: true
+    },
+    {
+        name: "list Blocks",
+        extensionId: 'listblocks',
+        iconURL: listImage,
+        insetIconURL: listInsetImage,
+        description: "リストのパターン化を補助します",
+        featured: true
+    },
+    {
+        name: "hyouka Blocks",
+        extensionId: 'hyoukablocks',
+        iconURL: hyoukaImage,
+        insetIconURL: hyoukaInsetImage,
+        description: "採点を補助します",
+        featured: true
+    },
     {
         name: (
             <FormattedMessage
@@ -66,26 +96,6 @@ export default [
                 defaultMessage="Play instruments and drums."
                 description="Description for the 'Music' extension"
                 id="gui.extension.music.description"
-            />
-        ),
-        featured: true
-    },
-    {
-        name: (
-            <FormattedMessage
-                defaultMessage="プログラミング教育ブロック"
-                description="プログラミング教育ブロック"
-                id="gui.extension.newblocks.name"
-            />
-        ),
-        extensionId: 'newblocks',
-        iconURL: newblocksImage,
-        insetIconURL: newblocksInsetImage,
-        description: (
-            <FormattedMessage
-                defaultMessage="プログラミング教育ブロック"
-                description="プログラミング教育ブロック"
-                id="gui.extension.newblocks.description"
             />
         ),
         featured: true
